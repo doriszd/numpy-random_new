@@ -4,7 +4,7 @@
 
 My investigation into the numpy random package as a part of Programming for Data analysis, 2019.
 
-![GitHub Logo](pic3.png)
+![numpy](pic1.png)
 
 
 

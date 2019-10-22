@@ -2,16 +2,16 @@
 # NumPy package
 
 
-My investigation into the numpy random package as a part of Programming for Data analysis, 2019.
-
 ![numpy](pic1.png)
 
 
+My investigation into the numpy random package as a part of Programming for Data analysis, 2019 at Galway - Mayo Institute of Techology. 
 
 
 # Created by:
 
 Doris Zdravkovic
+
 
 # Installing NumPy library
 
@@ -19,7 +19,7 @@ In most use cases the best way to install NumPy on your system is by using a pre
 
 
 
-# Running jupyter notebook 
+# Running Jupyter notebook 
 
 
 1. Enter the startup folder by typing cd /folder_name .
@@ -42,18 +42,26 @@ In most use cases the best way to install NumPy on your system is by using a pre
 
 # About Numpy
 
+NumPy (Numerical Python) is a linear algebra library in Python. It is a very important library on which almost every data science or machine learning Python packages such as SciPy (Scientific Python), Mat−plotlib (plotting library), Scikit-learn, etc depends on to a reasonable extent.
+NumPy is very useful for performing mathematical and logical operations on Arrays. It provides an abundance of useful features for operations on n-arrays and matrices in Python.
+
+
 # About Assignment
 
 The aim of this assignment is to: 
 
 1. Explain the overall purpose of the Numpy package.
+
 2. Explain the use of the “Simple random data” and “Permutations” functions. 
 3. Explain the use and purpose of at least ﬁve “Distributions” functions. 
 4. Explain the use of seeds in generating pseudorandom numbers.
 
 
+# Table of content:
+
 # References
 
 https://scipy.org/install.html
+https://towardsdatascience.com/lets-talk-about-numpy-for-datascience-beginners-b8088722309f
 
 https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html

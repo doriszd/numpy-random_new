@@ -31,13 +31,16 @@ In most use cases the best way to install NumPy on your system is by using a pre
 7. Closing the browser (or the tab) will not close the Jupyter Notebook App. To completely shut it down you need to close the associated terminal.
 
 
-# Downloading the repository 
+# Downloading and updating the repository
 
 1. Go to GitHub.
 2. Navigate to the main page of the repository: https://github.com/doriszd/numpy-random_new
 3. Under the repository name, click Clone or download
 4. Save the repository to a local folder location on your computer.
 5. Navigate to your target directory in the command line
+6. To add new content on gitHub type add .
+7. Type git commit -m "Write a message here"
+8. To send it to gitHub type git push
 
 
 # About Numpy
@@ -51,7 +54,6 @@ NumPy is very useful for performing mathematical and logical operations on Array
 The aim of this assignment is to: 
 
 1. Explain the overall purpose of the Numpy package.
-
 2. Explain the use of the “Simple random data” and “Permutations” functions. 
 3. Explain the use and purpose of at least ﬁve “Distributions” functions. 
 4. Explain the use of seeds in generating pseudorandom numbers.

@@ -45,8 +45,32 @@ In most use cases the best way to install NumPy on your system is by using a pre
 
 # About Numpy
 
-NumPy (Numerical Python) is a linear algebra library in Python. It is a very important library on which almost every data science or machine learning Python packages such as SciPy (Scientific Python), Mat−plotlib (plotting library), Scikit-learn, etc depends on to a reasonable extent.
-NumPy is very useful for performing mathematical and logical operations on Arrays. It provides an abundance of useful features for operations on n-arrays and matrices in Python.
+NumPy (Numerical Python) is a linear algebra library in Python. It is a very important library on which almost every data science or machine learning Python packages such as SciPy (Scientific Python), Matplotlib (plotting library), Scikit-learn, etc depends on to a reasonable extent. NumPy is very useful for performing mathematical and logical operations on Arrays. It provides an abundance of useful features for operations on n-arrays and matrices in Python.
+
+The focus of this project is to focus on pseudorandom numbers as they are a sample of numbers that look close to true random numbers but are generated using some deterministic process. As computers can not produce random numbers itself, they need packages and algorithms that would deal with it. Numpy.random package is one of the libraries in Python that generates pseudorandom data.
+
+Within the package there are many different functions and distributions. You can find more information about numpy.random package and its features here: https://docs.scipy.org/doc/numpy-1.15.0/reference/routines.random.html#
+
+Some of more important attributes of an ndarray object:
+
+- ndarray.ndim
+This function returns the number of axes or dimensions of the array.
+- ndarray.shape
+This function returns the dimensions of the array
+- ndarray.size
+This function shows the total number of elements in the array
+- ndarray.dtype
+This function describes the type of elements in the array. It tells us if the element is for example integer or float.
+- ndarray.itemsize
+This function shows the size in bytes of each element of the array. 
+
+
+Numpy.random package consists of 4 parts:
+
+1. Simple random data
+2. Permutations
+3. Distributions
+4. Random generator
 
 
 # About Assignment

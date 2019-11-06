@@ -47,6 +47,20 @@ In most use cases the best way to install NumPy on your system is by using a pre
 
 NumPy (Numerical Python) is a linear algebra library in Python. It is a very important library on which almost every data science or machine learning Python packages such as SciPy (Scientific Python), Matplotlib (plotting library), Scikit-learn, etc depends on to a reasonable extent. NumPy is very useful for performing mathematical and logical operations on Arrays. It provides an abundance of useful features for operations on n-arrays and matrices in Python.
 
+
+
+# About Assignment
+
+The aim of this assignment is to: 
+
+1. Explain the overall purpose of the Numpy package.
+2. Explain the use of the “Simple random data” and “Permutations” functions. 
+3. Explain the use and purpose of at least ﬁve “Distributions” functions. 
+4. Explain the use of seeds in generating pseudorandom numbers.
+
+
+### 1. Purpose of the Numpy package
+
 The focus of this project is to focus on pseudorandom numbers as they are a sample of numbers that look close to true random numbers but are generated using some deterministic process. As computers can not produce random numbers itself, they need packages and algorithms that would deal with it. Numpy.random package is one of the libraries in Python that generates pseudorandom data.
 
 Within the package there are many different functions and distributions. You can find more information about numpy.random package and its features here: https://docs.scipy.org/doc/numpy-1.15.0/reference/routines.random.html#
@@ -72,15 +86,25 @@ Numpy.random package consists of 4 parts:
 3. Distributions
 4. Random generator
 
+### 2. “Simple random data” and “Permutations” functions
 
-# About Assignment
+These are simple random data function that are explained in the notebook in more details. 
 
-The aim of this assignment is to: 
+rand(d0, d1,....dn)  - Random values in a given shape.
+randn(d0, d1, …, dn) - Return a sample (or samples) from the “standard normal” distribution.
+randint - Return random integers from low (inclusive) to high (exclusive).
+random_integers - Random integers of type np.int between low and high, inclusive.
+random_sample([size]) - Return random floats in the half-open interval [0.0, 1.0).
+random([size]) - Return random floats in the half-open interval [0.0, 1.0).
+ranf([size]) - Return random floats in the half-open interval [0.0, 1.0).
+sample([size]) - Return random floats in the half-open interval [0.0, 1.0).
+choice(a[, size, replace, p]) - Generates a random sample from a given 1-D array
+bytes(length) - Return random bytes.
 
-1. Explain the overall purpose of the Numpy package.
-2. Explain the use of the “Simple random data” and “Permutations” functions. 
-3. Explain the use and purpose of at least ﬁve “Distributions” functions. 
-4. Explain the use of seeds in generating pseudorandom numbers.
+Permutations: there are only 2 functions
+
+shuffle(x) - Modify a sequence in-place by shuffling its contents.
+permutation(x) - Randomly permute a sequence, or return a permuted range.
 
 
 # Table of content:

@@ -107,6 +107,39 @@ Permutations: there are only 2 functions
 1. shuffle(x) - Modify a sequence in-place by shuffling its contents.
 2. permutation(x) - Randomly permute a sequence, or return a permuted range.
 
+### 3. Distribution functions
+
+There are many probability distributions, but in this work I will focus on 5 distributions that data scientists find most useful (https://towardsdatascience.com/).
+
+1. Poisson distribution
+
+Poisson Distribution is applicable in situations where events occur at random points of time and space wherein our interest lies only in the number of occurrences of the event. It gives us the probability of a given number of events happening in a fixed interval of time. https://www.statisticshowto.datasciencecentral.com/poisson-distribution/
+
+2. Uniform distribution
+
+The probabilities of getting outcomes from example 1-10 are equally likely and that is the basis of a uniform distribution. The shape of the Uniform distribution curve is rectangular, the reason why Uniform distribution is also called rectangular distribution. 
+
+3. Binominal distribution
+
+A distribution where only two outcomes are possible, such as success or failure, gain or loss, win or lose and where the probability of success and failure is same for all the trials is called a Binomial Distribution. Each trial is independent since the outcome of the previous toss doesn’t determine or affect the outcome of the current toss. 
+
+4. Normal distribution
+
+It represents the behavior of most of the situations in the universe. That is why it’s called a “normal” distribution. The large sum of (small) random variables often turns out to be normally distributed, contributing to its widespread application. Any distribution is known as Normal distribution if it has the following characteristics:
+
+The mean, median and mode of the distribution coincide.
+The curve of the distribution is bell-shaped and symmetrical about the line x=μ.
+The total area under the curve is 1.
+Exactly half of the values are to the left of the center and the other half to the right.
+
+5. Exponential distribution
+
+Exponential Distribution is used to model the time taken between the occurrence of different events.We should use exponential distribution when:
+
+You have a lot of events going.
+They happen at a certain rate (which does not change over time).
+Just because one happened the chances of another one happening don’t change.
+https://www.kdnuggets.com/2019/07/5-probability-distributions-every-data-scientist-should-know.html
 
 # Table of content:
 

@@ -67,15 +67,15 @@ Within the package there are many different functions and distributions. You can
 
 Some of more important attributes of an ndarray object:
 
-- ndarray.ndim
+- ndarray.ndim:
 This function returns the number of axes or dimensions of the array.
-- ndarray.shape
+- ndarray.shape:
 This function returns the dimensions of the array
-- ndarray.size
+- ndarray.size:
 This function shows the total number of elements in the array
-- ndarray.dtype
+- ndarray.dtype:
 This function describes the type of elements in the array. It tells us if the element is for example integer or float.
-- ndarray.itemsize
+- ndarray.itemsize:
 This function shows the size in bytes of each element of the array. 
 
 
@@ -86,25 +86,26 @@ Numpy.random package consists of 4 parts:
 3. Distributions
 4. Random generator
 
+
 ### 2. “Simple random data” and “Permutations” functions
 
 These are simple random data function that are explained in the notebook in more details. 
 
-rand(d0, d1,....dn)  - Random values in a given shape.
-randn(d0, d1, …, dn) - Return a sample (or samples) from the “standard normal” distribution.
-randint - Return random integers from low (inclusive) to high (exclusive).
-random_integers - Random integers of type np.int between low and high, inclusive.
-random_sample([size]) - Return random floats in the half-open interval [0.0, 1.0).
-random([size]) - Return random floats in the half-open interval [0.0, 1.0).
-ranf([size]) - Return random floats in the half-open interval [0.0, 1.0).
-sample([size]) - Return random floats in the half-open interval [0.0, 1.0).
-choice(a[, size, replace, p]) - Generates a random sample from a given 1-D array
-bytes(length) - Return random bytes.
+1. rand(d0, d1,....dn)  - Random values in a given shape.
+2. randn(d0, d1, …, dn) - Return a sample (or samples) from the “standard normal” distribution.
+3. randint - Return random integers from low (inclusive) to high (exclusive).
+4. random_integers - Random integers of type np.int between low and high, inclusive.
+5. random_sample([size]) - Return random floats in the half-open interval [0.0, 1.0).
+6. random([size]) - Return random floats in the half-open interval [0.0, 1.0).
+7. ranf([size]) - Return random floats in the half-open interval [0.0, 1.0).
+8. sample([size]) - Return random floats in the half-open interval [0.0, 1.0).
+9. choice(a[, size, replace, p]) - Generates a random sample from a given 1-D array
+10. bytes(length) - Return random bytes.
 
 Permutations: there are only 2 functions
 
-shuffle(x) - Modify a sequence in-place by shuffling its contents.
-permutation(x) - Randomly permute a sequence, or return a permuted range.
+1. shuffle(x) - Modify a sequence in-place by shuffling its contents.
+2. permutation(x) - Randomly permute a sequence, or return a permuted range.
 
 
 # Table of content:

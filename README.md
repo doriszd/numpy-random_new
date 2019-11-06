@@ -5,7 +5,7 @@
 ![numpy](pic1.png)
 
 
-My investigation into the numpy random package as a part of Programming for Data analysis, 2019 at Galway - Mayo Institute of Techology. 
+My investigation into the numpy random package as a part of Programming for Data analysis, 2019 at Galway - Mayo Institute of Technology. 
 
 
 # Created by:
@@ -125,16 +125,16 @@ A distribution where only two outcomes are possible, such as success or failure,
 
 4. Normal distribution
 
-It represents the behavior of most of the situations in the universe. That is why it’s called a “normal” distribution. The large sum of (small) random variables often turns out to be normally distributed, contributing to its widespread application. Any distribution is known as Normal distribution if it has the following characteristics:
+It represents the behaviour of most of the situations in the universe. That is why it’s called a “normal” distribution. The large sum of (small) random variables often turns out to be normally distributed, contributing to its widespread application. Any distribution is known as Normal distribution if it has the following characteristics:
 
 The mean, median and mode of the distribution coincide.
 The curve of the distribution is bell-shaped and symmetrical about the line x=μ.
 The total area under the curve is 1.
-Exactly half of the values are to the left of the center and the other half to the right.
+Exactly half of the values are to the left of the centre and the other half to the right.
 
 5. Exponential distribution
 
-Exponential Distribution is used to model the time taken between the occurrence of different events.We should use exponential distribution when:
+Exponential Distribution is used to model the time taken between the occurrence of different events. We should use exponential distribution when:
 
 You have a lot of events going.
 They happen at a certain rate (which does not change over time).

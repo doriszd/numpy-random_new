@@ -141,6 +141,21 @@ They happen at a certain rate (which does not change over time).
 Just because one happened the chances of another one happening don’t change.
 https://www.kdnuggets.com/2019/07/5-probability-distributions-every-data-scientist-should-know.html
 
+
+### 4. Use of seeds in generating pseudorandom numbers
+
+Computers can't produce random numbers itself, they need human help. That is the reason why random numberes are deterministic which means that they operate by a set of rules, and we call them pseudorandom numbers. The pseudorandom number generator is a mathematical function that generates a sequence of nearly random numbers. It takes a parameter to start off the sequence, called the seed.
+
+- Syntax of random.seed()
+
+If the seed=None, then by default, current system time is used. If seed value is in the form of an integer it is used as it is. This method is called when RandomState is initialized. It can be called again to re-seed the generator. RandomState exposes a number of methods for generating random numbers drawn from a variety of probability distributions. In addition to the distribution-specific arguments, each method takes a keyword argument size that defaults to None.
+
+- If size is None, then a single value is generated and returned.
+- If size is an integer, then a 1-D array filled with generated values is returned.
+- If size is a tuple, then an array with that shape is filled and returned.
+
+https://docs.scipy.org/doc/numpy-1.16.0/reference/generated/numpy.random.RandomState.html#numpy.random.RandomState
+
 # Table of content:
 
 # References

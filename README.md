@@ -162,9 +162,11 @@ If the seed=None, then by default, current system time is used. If seed value is
 
 https://docs.scipy.org/doc/numpy-1.16.0/reference/generated/numpy.random.RandomState.html#numpy.random.RandomState
 
+
 # Table of content:
 
-- What are random numbers 
+- What are random numbers?
+
 - Numpy package 
   * ndarray.ndim
   * ndarray.shape
@@ -172,7 +174,35 @@ https://docs.scipy.org/doc/numpy-1.16.0/reference/generated/numpy.random.RandomS
   * ndarray.itemsize
   * arange
   
--
+- Why is numpy fast?
+
+- Section 1. Numpy.random package
+
+- Section 2. Simple random data and Permutations
+
+  * rand
+  * randn
+  * rand.int
+  * random_integers
+  * random_sample
+  * random
+  * ranf
+  * sample
+  * choice
+  * bytes
+  * shuffle
+  * permutations
+  
+- Section 3. Distributions
+ 
+  * Poisson
+  * Uniform
+  * Binominal
+  * Normal
+  * Exponential
+  
+- Section 4. The use of seeds
+
 
 # References
 

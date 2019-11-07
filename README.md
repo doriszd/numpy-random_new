@@ -30,6 +30,7 @@ In most use cases the best way to install NumPy on your system is by using a pre
 6. You can run the whole notebook in a single step by clicking on the menu Cell -> Run All.
 7. Closing the browser (or the tab) will not close the Jupyter Notebook App. To completely shut it down you need to close the associated terminal.
 
+https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html
 
 # Downloading and updating the repository
 
@@ -204,9 +205,40 @@ https://docs.scipy.org/doc/numpy-1.16.0/reference/generated/numpy.random.RandomS
 - Section 4. The use of seeds
 
 
-# References
+### References (Readme):
 
-https://scipy.org/install.html
-https://towardsdatascience.com/lets-talk-about-numpy-for-datascience-beginners-b8088722309f
+- https://scipy.org/install.html
+- https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html
+- https://matplotlib.org/
+- https://docs.scipy.org/doc/numpy-1.15.0/user/index.html
+- https://towardsdatascience.com/lets-talk-about-numpy-for-datascience-beginners-b8088722309f
+- https://www.statisticshowto.datasciencecentral.com/poisson-distribution/
+- https://www.kdnuggets.com/2019/07/5-probability-distributions-every-data-scientist-should-know.html
+- https://docs.scipy.org/doc/numpy-1.16.0/reference/generated/numpy.random.RandomState.html#numpy.random.RandomState
 
-https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html
+### References (Section 1 and 2):
+- https://docs.scipy.org/doc/numpy-1.15.0/reference/routines.random.html#
+- https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.ndarray.html
+- https://scipy-lectures.org/intro/numpy/array_object.html
+- https://en.wikipedia.org/wiki/Random_permutation
+- https://www.geeksforgeeks.org/permutation-and-combination-in-python/
+- https://pynative.com/python-random-shuffle/
+- http://programmersought.com/article/42301751121/;jsessionid=A113BA7B1FC347E1462F95F1517A0197
+
+### References (Section 3 and 4):
+
+- https://www.kdnuggets.com/2019/07/5-probability-distributions-every-data-scientist-should-know.html
+- https://www.statisticshowto.datasciencecentral.com/poisson-distribution/
+- https://www.onlinemathlearning.com/poisson-distribution.html
+- https://www.analyticsvidhya.com/
+- https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.binomial.html#numpy.random.binomial
+- https://towardsdatascience.com/understanding-the-68-95-99-7-rule-for-a-normal-distribution-b7b7cbf760c2
+- https://www.wallstreetmojo.com/exponential-distribution/
+- https://www.kdnuggets.com/2019/07/5-probability-distributions-every-data-scientist-should-know.html
+- https://towardsdatascience.com/probability-distributions-in-data-science-cce6e64873a7
+- https://en.wikipedia.org/wiki/Exponential_distribution
+- https://yourbasic.org/algorithms/random-number-generator-seed/
+- https://www.statisticshowto.datasciencecentral.com/random-seed-definition/
+- https://pynative.com/python-random-seed/
+- https://docs.scipy.org/doc/numpy-1.16.0/reference/generated/numpy.random.RandomState.html#numpy.random.RandomState
+- https://pynative.com/python-random-seed/

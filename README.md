@@ -164,6 +164,16 @@ https://docs.scipy.org/doc/numpy-1.16.0/reference/generated/numpy.random.RandomS
 
 # Table of content:
 
+- What are random numbers 
+- Numpy package 
+  * ndarray.ndim
+  * ndarray.shape
+  * ndarray.size
+  * ndarray.itemsize
+  * arange
+  
+-
+
 # References
 
 https://scipy.org/install.html
